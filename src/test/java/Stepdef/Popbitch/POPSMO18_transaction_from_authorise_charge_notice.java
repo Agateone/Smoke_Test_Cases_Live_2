@@ -163,6 +163,7 @@ public class POPSMO18_transaction_from_authorise_charge_notice {
 	   String Para= paragraph.getText();
 	   Assert.assertTrue(Para.contains("rehearsed, but it"));	
 	   System.out.print(Para);
+	   driver.quit();
 	   
 	   
 	}

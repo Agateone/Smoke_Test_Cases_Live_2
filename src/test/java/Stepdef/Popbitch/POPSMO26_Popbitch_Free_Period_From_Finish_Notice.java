@@ -179,6 +179,7 @@ public class POPSMO26_Popbitch_Free_Period_From_Finish_Notice {
 		String actual_free_period= w1.Get__free_period();
 	
 		Assert.assertEquals(actual_free_period, expected_free_period_time);
+		driver.quit();
 	}
 
 	

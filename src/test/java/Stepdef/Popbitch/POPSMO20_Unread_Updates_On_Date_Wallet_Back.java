@@ -122,7 +122,7 @@ public class POPSMO20_Unread_Updates_On_Date_Wallet_Back {
 		Assert.assertEquals(updates_on_date, freeperiod_expiry);
 		System.out.println(updates_on_date);
 		System.out.println(freeperiod_expiry);
-		
+		driver.quit();
 		
 		
 		

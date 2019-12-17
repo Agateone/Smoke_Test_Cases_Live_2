@@ -62,6 +62,7 @@ public class POPSMO25_First_Use_Notice_Displayed {
 		Boolean expected = true;
 		Assert.assertEquals(displayed, expected);
 		System.out.print("First use notice displayed");
+	driver.quit();
 	}
 
 

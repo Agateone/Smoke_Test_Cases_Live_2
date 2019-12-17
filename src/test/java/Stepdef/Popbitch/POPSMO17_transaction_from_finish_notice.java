@@ -136,6 +136,7 @@ public class POPSMO17_transaction_from_finish_notice {
 		String actual_free_point=w1.Free_point();
 		String expected_free_point="25";
 		Assert.assertEquals(actual_free_point, expected_free_point);
+		driver.quit();
 	}
 
 //doesnt work on automation - fix later	

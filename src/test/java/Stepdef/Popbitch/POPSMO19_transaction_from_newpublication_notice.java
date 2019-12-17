@@ -182,6 +182,7 @@ import Elements.Register_Page_Elements1;
 	   String Para= paragraph.getText();
 	   Assert.assertTrue(Para.contains("rehearsed, but it"));	
 	   System.out.print(Para);  
+		driver.quit();
 		}
 
 	}

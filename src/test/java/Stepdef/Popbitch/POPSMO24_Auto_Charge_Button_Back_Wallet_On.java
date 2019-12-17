@@ -144,6 +144,7 @@ public class POPSMO24_Auto_Charge_Button_Back_Wallet_On {
 			String actual_current_balance=w1.current_balance();
 			String expected_current_balance="9.50";
 			Assert.assertEquals(actual_current_balance, expected_current_balance);
+			driver.quit();
 		}
 
 }

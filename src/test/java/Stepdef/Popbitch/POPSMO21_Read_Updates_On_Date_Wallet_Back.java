@@ -138,6 +138,7 @@ public class POPSMO21_Read_Updates_On_Date_Wallet_Back {
 		Assert.assertEquals(updates_on_date, updates_on_expected);
 		System.out.println(updates_on_date);
 		System.out.println(updates_on_expected);
+		driver.quit();
 	}
 	
 }

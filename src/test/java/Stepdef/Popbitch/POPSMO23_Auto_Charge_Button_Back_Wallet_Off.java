@@ -133,7 +133,8 @@ public class POPSMO23_Auto_Charge_Button_Back_Wallet_Off {
 		driver.switchTo().frame("iframe__inpage_notices");
 		Boolean displayed_actual= driver.findElement(By.id("agate_payNow")).isDisplayed();
 		Boolean displayed_expected= true;
-		Assert.assertEquals(displayed_actual, displayed_expected);		   
+		Assert.assertEquals(displayed_actual, displayed_expected);
+		driver.quit();
 	}
 
 }

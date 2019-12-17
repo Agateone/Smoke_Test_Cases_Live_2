@@ -195,6 +195,7 @@ public class POPSMO28_Free_period_from_new_publication_notice {
 		String actual_free_period= w1.Get__free_period();
 	
 		Assert.assertEquals(actual_free_period, expected_free_period_time);
+	driver.quit();
 	}
 	
 }

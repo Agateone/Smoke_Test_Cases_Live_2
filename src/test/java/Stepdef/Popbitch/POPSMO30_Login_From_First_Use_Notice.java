@@ -117,6 +117,7 @@ public class POPSMO30_Login_From_First_Use_Notice {
 		String actual_url= driver.getCurrentUrl();
 	    String expected_url = "https://popbitch.com/2019/11/royal-blush/";
 	    Assert.assertEquals(actual_url, expected_url);
+	driver.quit();
 	}
 	
 	

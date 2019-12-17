@@ -212,6 +212,7 @@ public class POPSMO29_Free_period_on_2_publications {
 			
 				Assert.assertEquals(actual_free_period_new, expected_free_period_time_new);
 				System.out.print(actual_free_period_new+ "\n"+expected_free_period_time_new );
+			driver.quit();
 			}
 
 	}
