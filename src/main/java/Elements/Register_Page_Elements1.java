@@ -29,7 +29,7 @@ public class Register_Page_Elements1 {
 	By Register_Page_Terms_conditions_Checkbox= By.id("terms");																								//Terms & conditions check box
 	By Register_Page_Privacy_checkbox= By.id("privacy");																										//privacy check box
 	By Register_Page_marketing_checkbox= By.id("marketing_rejection");																									//marketing check box																						//over sixteen check box
-	By Register_Page_Register_Button= By.xpath("//*[@id=\"app\"]/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")	;																									// Register button
+	By Register_Page_Register_Button= By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button/div")	;																									// Register button
 	By Register_Page_Find_out_more_cookies= By.linkText("Find out more");	
 	By Register_Page_cvv= By.id("cvv");
 	By Register_Page_postcode=By.id("postal-code");
