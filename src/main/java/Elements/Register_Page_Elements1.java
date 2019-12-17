@@ -33,8 +33,7 @@ public class Register_Page_Elements1 {
 	By Register_Page_Find_out_more_cookies= By.linkText("Find out more");	
 	By Register_Page_cvv= By.id("cvv");
 	By Register_Page_postcode=By.id("postal-code");
-	By Register_Page_Voucher = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div/div[2]/div[2]/div/form/button[1]/div");
-	
+	By Register_Page_Voucher = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div/div[2]/div[2]/div/form/button[1]/div");	
 	By Register_Page_country = By.id("country");
 	By Register_Page_state = By.id("state");
 	By Register_Page_zip_code = By.id("zipcode");
@@ -68,8 +67,8 @@ public class Register_Page_Elements1 {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_marketing_checkbox));
 		Thread.sleep(6000);
 		driver_Register_Page_Elements.findElement(Register_Page_marketing_checkbox).click();
+
 		Thread.sleep(20000);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")));
 		driver_Register_Page_Elements.findElement(By.xpath("/html/body/div/div[2]/div/div/div/div[2]/div[2]/div[1]/form/button")).click();
 		System.out.println("\n"+"Registered with the email "+ randomEmail +"\n");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Register_Page_pay_by_card));
